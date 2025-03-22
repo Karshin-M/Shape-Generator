@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Tektur:wght@400..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Tektur", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+#input {
+    background-image: url("https://cdn.pixabay.com/video/2022/03/03/109454-684501206_tiny.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#color {
+    width: 100px;
+    height: 38px;
+    padding: 2px;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+p {
+    font-size: 2em;
+    margin: 10px;
+}
+
+#number {
+    width: 150px;
+    height: 40px;
+    font-size: 2em;
+    padding: 0px 10px;
+}
+
+#button {
+    width: 120px;
+    height: 40px;
+    font-size: 1.5em;
+    background-color: black;
+    color: whitesmoke;
+}
+
+button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.Circle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: rgb(199, 16, 16);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(19, 20, 8);
+}
+
+.Square {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: rgb(255, 0, 217);
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(76, 0, 255);
+}
+
+.Rectangle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: rgb(248, 4, 4);
+    height: 50px;
+    width: 80px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(0, 42, 255);
+}
+
+#box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.radio {
+    padding: 20px;
+}
